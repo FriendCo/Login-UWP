@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Login_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Login_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF664B2A" Offset="0.153"/>
+            <GradientStop Color="#FF337068" Offset="1"/>
+            <GradientStop Color="#FF644C2B" Offset="0.157"/>
+        </LinearGradientBrush>
+    </Page.Background>
+
+    <Grid >
+        <Border Background="#72000000" Margin="35 45" CornerRadius="35">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition Height="80"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Margin="39,35,0,67" Text="User Name" FontSize="20"/>
+                <TextBox x:Name="txtUserName" FontSize="15" PlaceholderText="User Name" Grid.Column="1" Margin="22,32,10,71" ></TextBox>
+                <TextBlock Grid.Row="1" Margin="51,33,5,69" Text="Password" FontSize="20"></TextBlock>
+                <PasswordBox x:Name="txtPassword" Grid.Column="1" Grid.Row="1" Margin="22,32,10,71" PlaceholderText="Password" FontSize="15"></PasswordBox>
+                <Button x:Name="btnLogin" Grid.Row="2" Content="Login" Margin="46,11,21,30" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="btnLogin_Click" />
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>

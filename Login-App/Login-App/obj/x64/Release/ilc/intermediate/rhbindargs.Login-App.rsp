@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"D:\project\Cs\UWP\Login-UWP\Login-App\Login-App\obj\x64\Release\ilc\intermediate\MDIL\Login-App.mdilexe"
+"/i:D:\project\Cs\UWP\Login-UWP\Login-App\Login-App\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:D:\project\Cs\UWP\Login-UWP\Login-App\Login-App\obj\x64\Release\ilc\intermediate\Native\Login-App.exe"
+"/pdbAltPath:D:\project\Cs\UWP\Login-UWP\Login-App\Login-App\bin\x64\Release\ilc"
+"/res:D:\project\Cs\UWP\Login-UWP\Login-App\Login-App\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.3\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"
